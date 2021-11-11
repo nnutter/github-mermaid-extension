@@ -15,7 +15,8 @@
   },
   "permissions": [
     "https://github.com/*",
-    "https://*.github.com/*"
+    "https://*.github.com/*",
+    "https://github.platforms.engineering/*"
   ],
   "options_ui": {
     "page": "options.html"
@@ -24,7 +25,8 @@
     {
       "matches": [
         "https://github.com/*",
-        "https://*.github.com/*"
+        "https://*.github.com/*",
+        "https://github.platforms.engineering/*"
       ],
       "js": [
         "scripts/contentscript.js"
@@ -42,5 +44,3 @@
     "default_popup": "popup.html"
   }
 }
-
-
